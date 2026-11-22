@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Fiyah's Portfolio</title>
+    <meta name="description" content="Noor Afiyah Binti Abdullah's software engineering portfolio.">
+    <meta property="og:title" content="Fiyah's Portfolio">
+    <meta property="og:description" content="Software engineering projects, skills, and contact details.">
+    <meta property="og:image" content="https://fiyaaaare.github.io/portfolio/scene.jpeg">
+    <meta property="og:url" content="https://fiyaaaare.github.io/portfolio/">
+    <meta property="og:type" content="website">
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="depth">
+      DEPTH
+      <b id="d">0m</b>
+    </div>
+
+    <button
+      class="sound-toggle"
+      id="sound-toggle"
+      type="button"
+      aria-label="Turn ambient lake sound on"
+      aria-pressed="false"
+    >
+      <span class="sound-icon" aria-hidden="true">♪</span>
+      <span class="sound-label">Sound off</span>
+    </button>
+
+    <div class="world" id="world">
+      <nav>
+        <a class="brand" href="#contact">
+          <span class="brand-mark" aria-hidden="true">≈</span>
+          <b>Noor Afiyah Binti Abdullah</b>
+        </a>
+
+        <div class="links">
+          <a href="#work">Work</a>
+          <a href="#about">About Me</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <a class="btn" href="#work">See My Work</a>
+      </nav>
+
+      <header class="hero" id="top">
+        <h1>Welcome to my Portfolio!</h1>
+        <p class="lede">
+          Hi, I'm Fiyah — a software engineer who's curious about the world around me.
+          Cast a line to see what I've been developing.
+        </p>
+
+        <div class="cta">
+          <a class="btn" href="#work">
+            Cast a line
+            <span class="arrow">↓</span>
+          </a>
+        </div>
+
+        <div
+          class="sky-cloud"
+          style="top: 9%; animation-duration: 140s"
+        ></div>
+        <div
+          class="sky-cloud"
+          style="top: 15%; width: 110px; animation-duration: 190s; animation-delay: -90s"
+        ></div>
+        <div
+          class="bird"
+          style="top: 12%; animation-duration: 38s; animation-delay: -8s"
+        ></div>
+
+        <div class="scene" id="scene">
+          <img
+            class="base"
+            src="scene.jpeg"
+            alt="Pixel-art pine forest beside a calm lake with a bunny fishing"
+          >
+          <div class="sway l">
+            <img src="scene.jpeg" alt="">
+          </div>
+          <div class="sway r">
+            <img src="scene.jpeg" alt="">
+          </div>
+          <div class="ripple"></div>
+          <div class="ripple" style="animation-delay: -1.8s"></div>
+          <div class="line" id="line">
+            <div class="hook"></div>
+          </div>
+          <button
+            class="easter-cat"
+            id="easter-cat"
+            type="button"
+            aria-label="Secret cat"
+          ></button>
+        </div>
+      </header>
+
+      <section class="lake" id="lake">
+        <div class="sec" id="work">
+          <h2>Beneath the surface</h2>
+          <p class="sub">Here are some of my projects.</p>
+
+          <div class="grid">
+            <article class="card">
+              <div class="thumb">🐟</div>
+              <h3>Project One</h3>
+              <p>A short line about what it is and what you did.</p>
+              <span class="tag">Branding</span>
+            </article>
+
+            <article class="card">
+              <div class="thumb">🐚</div>
+              <h3>Project Two</h3>
+              <p>A short line about what it is and what you did.</p>
+              <span class="tag">Web App</span>
+            </article>
+
+            <article class="card">
+              <div class="thumb">🪸</div>
+              <h3>Project Three</h3>
+              <p>A short line about what it is and what you did.</p>
+              <span class="tag">Illustration</span>
+            </article>
+
+            <article class="card">
+              <div class="thumb">🦀</div>
+              <h3>Project Four</h3>
+              <p>A short line about what it is and what you did.</p>
+              <span class="tag">UI Design</span>
+            </article>
+
+            <article class="card">
+              <div class="thumb">🐙</div>
+              <h3>Project Five</h3>
+              <p>A short line about what it is and what you did.</p>
+              <span class="tag">UI Design</span>
+            </article>
+
+            <article class="card">
+              <div class="thumb">🦑</div>
+              <h3>Project Six</h3>
+              <p>A short line about what it is and what you did.</p>
+              <span class="tag">UI Design</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="sec" id="about">
+          <h2>Deeper still</h2>
+          <p class="sub">A little about me.</p>
+
+          <div class="about">
+            <div>
+              <p>
+                I'm a software engineering student and developer who is interested in
+                building software that feels both structurally solid under the hood and
+                thoughtfully crafted on the surface. Whether I'm designing relational
+                databases, implementing core algorithms, or turning an illustrated
+                landscape into interactive web code, I want to make more projects that
+                blend clean engineering with expressive user interfaces.
+              </p>
+              <p>
+                I'm based in Miri, Malaysia, and currently looking for software
+                engineering internships and creative web development opportunities.
+                My process starts with breaking complex problems down into predictable,
+                modular logic before layering in the visual details—making sure
+                everything works cleanly from the foundation up.
+              </p>
+            </div>
+
+            <ul class="skills">
+              <li>Figma</li>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>C programming</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="floor" id="contact">
+          <h2>You've reached the lakebed</h2>
+          <p>Interested in working together? Reach out!</p>
+          <a class="mail" href="mailto:nrafiyah10@gmail.com">
+            nrafiyah10@gmail.com
+          </a>
+
+          <div class="soc">
+            <a
+              href="https://www.instagram.com/fiyaaaare"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Instagram</a>
+            <a
+              href="https://github.com/fiyaaaare"
+              target="_blank"
+              rel="noopener noreferrer"
+            >GitHub</a>
+            <a
+              href="https://www.linkedin.com/in/noor-afiyah-binti-abdullah/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
